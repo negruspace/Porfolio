@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=JetBrains+Mono:wght@500&display=swap');
+body{
+    background:black;
+}
+.espacios{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.centrado{
+    text-align: center;
+}
+.container{
+    margin: 50px auto;
+    padding: 5px;
+    max-width: 700px;
+}
+.cpu img {
+    width: 120px;
+    display: block;
+    margin: auto;
+
+}
+h1{
+    color: whitesmoke;
+    display: block;
+    font-size: 2em;
+    font-family: 'IBM Plex Mono';
+    font-weight:700;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    color: #8b8b8b;
+    font-family: 'JetBrains Mono';
+
+}
+h5 {
+    display: block;
+    font-family:'IBM Plex Mono' ;
+    white-space: nowrap;
+    border-right: 10px solid;
+    width: 18ch;
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    
+    
+    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+    }
