@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Indie+Flower&family=JetBrains+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Indie+Flower&family=JetBrains+Mono:wght@500&family=Volkhov:wght@700&display=swap');
+
 body{
     background:rgb(7, 7, 7);
 }
@@ -16,7 +17,7 @@ body{
     font-family: monospace;
     font-weight: 700;
     text-decoration: NONE;
-    color:#d3a10c;
+    color:#2FE5C9;
 }
 .espacios{
     padding-top: 50px;
@@ -53,7 +54,7 @@ h1{
 h2{
     display: block;
     font-size: 1.4em;
-    color: #d3a10c;
+    color: #11e8ef;
     font-family: 'Indie Flower';
 
 }
@@ -66,16 +67,16 @@ p{
 }
 h5 {
     display: block;
-    font-family:'IBM Plex Mono' ;
+    font-family:monospace ;
     white-space: nowrap;
     border-right: 10px solid;
-    width: 18ch;
+    width: 19ch;
     color: aliceblue;
     text-align: center;
     margin:auto;
     
     
-    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(19), blink .5s infinite step-end alternate;
     overflow:hidden;
     }
     
@@ -93,7 +94,7 @@ h5 {
         color:white;
         font-weight: 700;
         font-size: 1.2em;
-        text-decoration: underline;
+        
     }
     .carpeta img {
         width: 30px;
@@ -103,9 +104,10 @@ h5 {
         padding:20px;
     }
     #textproyect1{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Volkhov';
+        font-weight: 700;
         text-align:right;
-        font-size: 1.5em;
+        font-size: 1.9em;
         padding-left: 10px;
     }
     @media screen and (max-width: 780px){
@@ -122,11 +124,11 @@ h5 {
         }
 
         @keyframes anim{
-            0% {color: #ff0;} 
-           25% {color: #f80;} 
-           50% {color: rgb(255, 255, 255);} 
-           75% {color: #f80;} 
-          100% {color: #ff0;} 
+            0% {color: rgb(246, 255, 251);} 
+           25% {color: rgba(0, 255, 174, 0.963);} 
+           50% {color: rgb(21, 220, 230);} 
+           75% {color: rgba(0, 225, 255, 0.655);} 
+          100% {color: rgb(200, 207, 213);} 
         }
         strong {
           animation-name: anim;
