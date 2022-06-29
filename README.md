@@ -6,4 +6,4 @@ va mutando a medida que agrego contenido y modificaciones.
 
 ## Estado
 ---
-En desarollo e integrando técnOlogias y modificaciones.
+En desarollo e integrando tecnOlogías y modificaciones.
