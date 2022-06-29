@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Indie+Flower&family=JetBrains+Mono:wght@500&display=swap');
 body{
-    background:black;
+    background:rgb(7, 7, 7);
 }
 .botones{
     float: right;
@@ -16,7 +16,7 @@ body{
     font-family: monospace;
     font-weight: 700;
     text-decoration: NONE;
-    color:#e6d217;
+    color:#d3a10c;
 }
 .espacios{
     padding-top: 50px;
@@ -33,6 +33,7 @@ body{
     margin: 50px auto;
     padding: 5px;
     max-width: 1100px;
+    
     
 }
 .cpu img {
@@ -52,7 +53,7 @@ h1{
 h2{
     display: block;
     font-size: 1.4em;
-    color: #e6d217;
+    color: #d3a10c;
     font-family: 'Indie Flower';
 
 }
@@ -92,10 +93,10 @@ h5 {
         color:white;
         font-weight: 700;
         font-size: 1.2em;
+        text-decoration: underline;
     }
     .carpeta img {
         width: 30px;
-        padding:;
         
     }
     .carpeta  a{
@@ -115,4 +116,40 @@ h5 {
             margin: auto;
             display: block;
         }
+        #titulocontacto{
+            text-align: center;
+        }
+        }
+
+        @keyframes anim{
+            0% {color: #ff0;} 
+           25% {color: #f80;} 
+           50% {color: rgb(255, 255, 255);} 
+           75% {color: #f80;} 
+          100% {color: #ff0;} 
+        }
+        strong {
+          animation-name: anim;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+        }
+
+        .iconos {
+        width: 100PX;
+        margin: auto;
+      
+       
+        }
+        .iconos a{
+            padding: 30px;
+
+
+
+        }
+
+        i{
+        
+        font-size:40px;
+        color:white
+        
         }
